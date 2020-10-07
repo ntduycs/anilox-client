@@ -3,7 +3,7 @@ let baseUrl = "";
 if (process.env.NODE_ENV !== "production") {
 	baseUrl = "http://localhost:5000/api";
 } else {
-	baseUrl = "https://faso-sv.tk/api";
+	baseUrl = "http://54.169.53.245:5000/api";
 }
 
 const imageS3Repo = "https://anilox-image.s3-ap-southeast-1.amazonaws.com/";
